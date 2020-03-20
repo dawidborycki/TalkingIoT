@@ -16,4 +16,4 @@ if __name__ == "__main__":
     label = recognizer.recognize(image)
 
     # Perform TTS (speak label)
-    helpers.sayText('The recognition result is: ' + label)
+    helpers.say_text('The recognition result is: ' + label)

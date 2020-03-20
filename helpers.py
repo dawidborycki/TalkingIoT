@@ -54,5 +54,5 @@ def plot_results(images_with_labels, predicted_labels, row_count, col_count, fon
     # Show plot
     plt.show()
 
-def sayText(text):
+def say_text(text):
     os.system('echo ' + text + ' | festival --tts')
